@@ -46,7 +46,63 @@ div.navbar-translate {
   align-content: center;
   justify-content: center;
 }
-@media screen and (max-width: 500px) {
+.cc-profile-image {
+  overflow: hidden;
+}
+.visit {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+ .portfolio{
+      box-shadow: 1px 0px 1.5rem .1rem rgba(48, 48, 48, 0.15) !important;
+}
+.intern{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.organization{
+  margin: 0;
+  padding: 0;
+  font-weight: bolder;
+}
+.duration{
+  /* margin: 0;
+  padding: 0; */
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(185, 185, 185);
+}
+
+@media screen and (max-width: 1500px) {
+  .visit {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+@media  screen and (max-width: 800px) {
+  .intern{
+    flex-direction: column;
+  }
+  .duration{
+    justify-self: flex-start;
+    align-self: flex-start;
+  }
+  .intern *{
+    padding: 0;
+    margin: 0;
+  }
+  .intern{
+    margin: 20px 0px;
+  }
+}
+@media screen and (max-width: 550px) {
   .action-content {
     display: flex;
     flex-direction: column;
@@ -60,5 +116,54 @@ div.navbar-translate {
   .i {
     margin: 0;
     margin-top: 10px;
+  }
+  .portfolio .portfolio-wrap .portfolio-info h3 {
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .portfolio .portfolio-wrap .portfolio-info p {
+    font-size: 14px;
+  }
+  .visit {
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    /* margin-top: 10px; */
+  }
+}
+
+@media screen and (max-width: 397px) {
+  .visit {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+  }
+  .portfolio .portfolio-wrap .portfolio-info {
+    margin: 2px;
+    padding: 0;
+  }
+  .portfolio .portfolio-wrap .portfolio-info h3 {
+    font-size: 1rem;
+  }
+  .portfolio .portfolio-wrap .portfolio-info p {
+    font-size: 12px;
+  }
+  span.txt {
+    visibility: hidden;
+    display: none;
+  }
+  .portfolio-info a.btn i.fa {
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width : 300px){
+  .you, .i{
+    padding: 10px 20px;
   }
 }
