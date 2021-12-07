@@ -1,0 +1,64 @@
+div {
+  overflow-x: hidden;
+}
+div.navbar-translate {
+  overflow-x: visible;
+}
+.typewrite > .wrap {
+  border-right: 0.02em solid #fff;
+}
+.sch-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sch-detail {
+  display: flex;
+  flex-direction: column;
+
+  align-content: center;
+}
+
+.best-Q {
+  background-image: url("images/pic1.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-repeat: center center;
+  height: 50vh;
+  padding: 0px;
+}
+.action-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.you {
+  margin-right: 15px;
+}
+.i {
+  margin-left: 15px;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+@media screen and (max-width: 500px) {
+  .action-content {
+    display: flex;
+    flex-direction: column;
+    /* align-content: center; */
+    align-items: center;
+  }
+  .you {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .i {
+    margin: 0;
+    margin-top: 10px;
+  }
+}
