@@ -928,11 +928,13 @@ ul.work li.active {
 */
 
 .footer-area {
-    background-image: url('../images/backgroundPic.jpg');
+    background-image: url('../images/pic1.jpeg');
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    background-repeat: center center;
+    background-position: center center;
+      background-position: 0px 100px,
+                       right 3em bottom 2em;
 }
 
 .footer-area p {
