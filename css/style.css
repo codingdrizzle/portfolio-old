@@ -933,8 +933,8 @@ ul.work li.active {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-      background-position: 0px 100px,
-                       right 3em bottom 2em;
+      /* background-position: 0px 100px,
+                       right 3em bottom 2em; */
 }
 
 .footer-area p {

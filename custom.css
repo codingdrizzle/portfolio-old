@@ -26,8 +26,8 @@ div.navbar-translate {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
-  background-position: 0px 0px,
-                       right 3em bottom 2em;
+  /* background-position: 0px 0px,
+                       right 3em bottom 2em; */
 
   height: 50vh;
   padding: 0px;
