@@ -605,7 +605,7 @@ ul.work li.active {
 }
 
 .portfolio-wrap{
-    border-radius: 2%;
+    /* border-radius: 2%; */
 }
 .portfolio .portfolio-wrap {
   transition: 0.3s;
