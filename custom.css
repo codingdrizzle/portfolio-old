@@ -104,13 +104,13 @@ div.navbar-translate {
   color: #b6b6b6;
   font-weight: 700;
 }
-.card{
+.port-card{
   margin: 2rem 1rem !important;
 }
-.card-body{
+.port-card-body{
     padding: 0px !important;
 }
-.card-footer p{
+.port-card-footer p{
   color: rgb(129, 129, 129);
   font-size: 20px;
 }
